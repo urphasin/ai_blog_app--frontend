@@ -35,7 +35,7 @@ body {
     display: flex;
     flex-flow: column nowrap;
     min-height: 100vh;
-    background-color: rgb(200, 200, 200);
+    background-color: rgb(252, 252, 252);
 
     font-family: sans-serif;
     -webkit-font-smoothing: antialiased; /* Chrome, Safari */
@@ -80,6 +80,15 @@ nav a {
 nav a:hover {
     text-decoration: underline yellow;
 }
+
+/* 
+                 _       
+ _ __ ___   __ _(_)_ __  
+| '_ ` _ \ / _` | | '_ \ 
+| | | | | | (_| | | | | |
+|_| |_| |_|\__,_|_|_| |_|
+*/
+main {}
 
 
 
