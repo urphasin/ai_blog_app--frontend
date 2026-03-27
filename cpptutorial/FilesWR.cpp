@@ -4,6 +4,7 @@
 int main() {
     std::string dirName = "my_folder";
 
+    // pausing sequence
     int x;
     std::cout << "enter: \n";
     std::cin >> x;
