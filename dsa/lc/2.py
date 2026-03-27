@@ -15,7 +15,8 @@ class ListNode:
         self.next = next
 
 
-
+def traverse(L: ListNode):
+    pass
 def addTwoNumbers(l1: ListNode, l2: ListNode):
     pass
 
@@ -37,4 +38,5 @@ N_1.next = N_2
 
 
 if __name__ == "__main__":
-    addTwoNumbers(M_0, N_0)
+    demo = addTwoNumbers(M_0, N_0)
+    traverse(demo)
