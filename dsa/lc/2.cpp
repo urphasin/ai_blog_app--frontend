@@ -10,7 +10,15 @@ struct ListNode {
 };
 
 void traverse(ListNode* L) {
-    
+
+}
+
+void deleteList(ListNode* head) {
+    while (head != nullptr) {
+        ListNode* temp = head;
+        head = head->next;
+        delete temp;
+    }
 }
 
 ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
@@ -36,8 +44,12 @@ int main() {
     N_0->next = N_1;
     N_1->next = N_2;
 
-    addTwoNumbers(M_0, N_0);
+    ListNode* demo = addTwoNumbers(M_0, N_0);
+    traverse(demo);
 
+    deleteList(demo);
+    deleteList(M_0);
+    deleteList(N_0);
 
     return 0;
 }
